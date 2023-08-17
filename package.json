@@ -5,19 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.js http://localhost:3000/"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sherry90/socket.io-express.git"
+    "dev": "nodemon ./src/index.js"
   },
   "author": "Sherry90",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Sherry90/socket.io-express/issues"
-  },
-  "homepage": "https://github.com/Sherry90/socket.io-express#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
   }
 }
