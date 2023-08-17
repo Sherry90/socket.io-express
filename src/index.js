@@ -13,8 +13,8 @@ app.get('/', (req, res) => {
 });
 
 io.on('connection', (socket) => {
-    socket.on('chat message', (msg) => {
-        console.log('message: ' + msg);
+    socket.on('input chat message', (msg) => {
+        io.emit('output chat message', msg);
     });
 });
 
