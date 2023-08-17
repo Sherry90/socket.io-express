@@ -1,0 +1,6 @@
+# Ignore node_modules directory
+node_modules/
+/.idea/modules.xml
+/.idea/.gitignore
+/.idea/socketio-express.iml
+/.idea/vcs.xml
