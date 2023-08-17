@@ -1,0 +1,19 @@
+{
+  "name": "socketio-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sherry90/socket.io-express.git"
+  },
+  "author": "Sherry90",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sherry90/socket.io-express/issues"
+  },
+  "homepage": "https://github.com/Sherry90/socket.io-express#readme"
+}
