@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Sherry90/socket.io-express/issues"
   },
-  "homepage": "https://github.com/Sherry90/socket.io-express#readme"
+  "homepage": "https://github.com/Sherry90/socket.io-express#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
