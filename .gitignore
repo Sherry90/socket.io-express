@@ -4,4 +4,5 @@ node_modules/
 /.idea/.gitignore
 /.idea/socketio-express.iml
 /.idea/vcs.xml
+/.idea/jsLibraryMappings.xml
 /.env
